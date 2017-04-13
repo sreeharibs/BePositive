@@ -1,0 +1,120 @@
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/back2">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="40dp">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Name"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:drawableLeft="@mipmap/email"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phone"
+            android:drawableLeft="@mipmap/phone"
+            android:hint="Mobile"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/pincode"
+            android:drawableLeft="@mipmap/location"
+            android:hint="Pincode"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password"
+            android:drawableLeft="@mipmap/lock"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:ems="10"
+            android:drawableLeft="@mipmap/bloodgroup"
+            android:hint="Blood group"
+            android:paddingLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#999"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"
+            android:popupBackground="#E21400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your privacy is our concern. Your contact details will not be shared to a third-party without your acknowledgement."
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:id="@+id/btnRegister"
+            android:background="@drawable/selector_xml_btn_yellow"
+            android:layout_gravity="center_horizontal"
+            android:onClick="checkLogin"/>
+
+    </LinearLayout>
+</ScrollView>

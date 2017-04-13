@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Be Positive</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="group">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string name="title_canteen_intro1" translatable="false">Be Positive</string>
+    <string name="title_canteen_intro2" translatable="false">Donate Blood</string>
+    <string name="title_canteen_intro3" translatable="false">Save Life</string>
+    <string name="description_canteen_intro1" translatable="false">Welcome to Be Positive family. Let\'s join our hands to help the needy</string>
+    <string name="description_canteen_intro2" translatable="false">Blood Donation will cost you nothing, but it will save a life!</string>
+    <string name="description_canteen_intro3" translatable="false">Every Blood donor is a Hero. Join us to become a Hero</string>
+    <string name="label_button_cta_canteen_intro" translatable="false">Get started</string>
+
+</resources>

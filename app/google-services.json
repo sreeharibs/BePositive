@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "83478359216",
+    "firebase_url": "https://bepositive-9d4c9.firebaseio.com",
+    "project_id": "bepositive-9d4c9",
+    "storage_bucket": "bepositive-9d4c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83478359216:android:d940878550e661ab",
+        "android_client_info": {
+          "package_name": "in.codesquad.bepositive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83478359216-lie5lvfr0vc5s6o3aasdb7rrd2qjp0oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codesquad.bepositive",
+            "certificate_hash": "16A34CCF10D478655F76FEC46164E12B8951681C"
+          }
+        },
+        {
+          "client_id": "83478359216-42d28us2jirp9ct17bb1unjuumbvcdmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn0R8wh7ZMBKjJlpDha6uVcZAQOQPGY34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83478359216-42d28us2jirp9ct17bb1unjuumbvcdmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
